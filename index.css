@@ -1,0 +1,535 @@
+/* =========================== APPLICABLE CSS IN HOLY PAGES ================= */
+:root{
+  --Primary-color:rgb(16, 17, 13);
+  --secondary-color:white;
+}
+
+body{
+  background-color: rgb(78, 55, 55);
+}
+*{
+  font-family: "poppines",sans-serif;
+}
+/* =========================== END OF APPLICABLE CSS IN HOLY PAGESE ================= */
+/* =========================== BIGIN OF NAVIGATION CSS ================= */
+ a,.Liste  {
+  
+  color: var(--secondary-color);
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  gap: 4rem;
+  justify-content: center;
+  height: 3rem;  
+  
+   
+}
+.Naviga{
+  background-color: var(--Primary-color);
+  align-content: center;
+  width: 100%;
+  
+  
+  
+  
+}
+/* ========================== START FOOTER ================== */
+
+
+.Footer{
+  background-color: var(--Primary-color);
+  color: var(--secondary-color);
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
+  gap: 15rem;
+}
+
+
+/* ====================== START OF BODY PARTY =============== */
+
+.ContainBoard{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  background-color: rgb(17, 27, 27);
+}
+.Paragraphys{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.Person{
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: -200px;
+  left: -245px;
+}
+.ArrowLink{
+ background-color: white;
+ width: 25rem;
+ position: relative;
+ top: 3rem;
+ border-top-right-radius: 2rem;
+ border-bottom-right-radius: 2rem;
+ left: 240px;
+ height: 200px;
+ z-index: 1;
+ gap: 10rem;
+ 
+ 
+ 
+}
+.Connect{
+  background-color: white;
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+  left: -1.5rem;
+  top: -100px;
+  transform: rotate(45deg);
+  bottom: 1rem;
+  z-index: -1;
+  
+  
+}
+.FirstParty{
+  background-color:rgb(116, 95, 70);
+}
+.ProductOwner{
+  text-align: center;
+}
+.Fieldset{
+  height: 600px;
+}
+.ManyProduct{
+  position: relative;
+  top: -135px;
+  left: -250px;
+  width: 350px;
+  height: 280px;
+}
+.Paragraphy{
+  position: relative;
+  top: 30px;
+  left: 10px;
+}
+.ListeAvailProd{
+  position: relative;
+  left: 7rem;
+  top: -27rem;
+  width: 15rem;
+  height: 17.5rem;
+  background-color: rgb(160, 149, 149);
+}
+.AboutUs{
+  width: 100%;
+}
+.ContainerImage{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 8rem;
+}
+
+/* ======================== BIGIN OF RESPONSIVENES ========================= */
+
+@media only screen and (max-width: 431px) and (min-width: 200px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  .ContainBoard{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-color: rgb(17, 27, 27);
+  }
+
+  .ArrowLink{
+    background-color: white;
+    width: 13rem;
+    position: relative;
+    top: 0rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    left: 125px;
+    height: 200px;
+    z-index: 1;
+    gap: 10rem;
+    
+    
+    
+   }
+
+   .Person{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -190px;
+    left: -132px;
+  }
+  .ListeAvailProd{
+    position: relative;
+    left: 3.5rem;
+    top: -22rem;
+    width: 7rem;
+    height: 17.5rem;
+    background-color: rgb(160, 149, 149);
+  }
+
+  .ManyProduct{
+    position: relative;
+    top: -50px;
+    left: -130px;
+    width: 175px;
+    height: 280px;
+  }
+
+  a,.Liste  {
+  
+    color: var(--secondary-color);
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    gap: 2rem;
+    justify-content: center;
+    height: 3rem;  
+    
+     
+  }
+  .Footer{
+    background-color: var(--Primary-color);
+    color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    gap: 1rem;
+    font-size: small;
+  }
+  .ContainerImage{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+  }
+
+  .Images{
+    width: 161px;
+    height: 161px;
+  }
+  .AboutUs{
+    height: 50rem;
+  }
+  .Video{
+    width: 150px;
+    height: 150px;
+  }
+  .video-container{
+    display: grid;
+    gap: 3.5rem;
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+}
+/* 
+=================== BIGIN OF SECOND RESPONSIVENES =====================  */
+
+@media only screen and (max-width: 820px) and (min-width: 432px) {
+  body {
+    background-color: yellowgreen;
+  }
+
+  .ContainBoard{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgb(17, 27, 27);
+  }
+
+  .ArrowLink{
+    background-color: white;
+    width: 13rem;
+    position: relative;
+    top: 0rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    left: 125px;
+    height: 200px;
+    z-index: 1;
+    gap: 10rem;
+    
+    
+    
+   }
+
+   .Person{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -190px;
+    left: -132px;
+  }
+  .ListeAvailProd{
+    position: relative;
+    left: 3.5rem;
+    top: -22rem;
+    width: 7rem;
+    height: 17.5rem;
+    background-color: rgb(160, 149, 149);
+  }
+
+  .ManyProduct{
+    position: relative;
+    top: -50px;
+    left: -130px;
+    width: 175px;
+    height: 280px;
+  }
+
+  a,.Liste  {
+  
+    color: var(--secondary-color);
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    gap: 2rem;
+    justify-content: center;
+    height: 3rem;  
+    
+     
+  }
+  .Footer{
+    background-color: var(--Primary-color);
+    color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    gap: 1rem;
+    font-size: small;
+  }
+  .ContainerImage{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 4rem;
+  }
+
+  .Images{
+    width: 161px;
+    height: 161px;
+  }
+  .AboutUs{
+    height: 70rem;
+  }
+  .Video{
+    width: 150px;
+    height: 150px;
+  }
+  .video-container{
+    display: grid;
+    gap: 9rem;
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+}
+
+/* ========================= BIGIN OF THIRD RESPONSIVENES ==================== */
+
+@media only screen and (max-width: 1280px) and (min-width: 821px) {
+  body {
+    background-color: yellowgreen;
+  }
+
+  .ContainBoard{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgb(17, 27, 27);
+  }
+
+  .ArrowLink{
+    background-color: white;
+    width: 13rem;
+    position: relative;
+    top: 0rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    left: 125px;
+    height: 200px;
+    z-index: 1;
+    gap: 10rem;
+    
+    
+    
+   }
+
+   .Person{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -190px;
+    left: -132px;
+  }
+  .ListeAvailProd{
+    position: relative;
+    left: 3.5rem;
+    top: -22rem;
+    width: 7rem;
+    height: 17.5rem;
+    background-color: rgb(160, 149, 149);
+  }
+
+  .ManyProduct{
+    position: relative;
+    top: -50px;
+    left: -130px;
+    width: 175px;
+    height: 280px;
+  }
+
+  a,.Liste  {
+  
+    color: var(--secondary-color);
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    gap: 2rem;
+    justify-content: center;
+    height: 3rem;  
+    font-size: 2rem;
+    
+     
+  }
+  .Footer{
+    background-color: var(--Primary-color);
+    color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    gap: 5rem;
+    font-size: 2.4rem;
+  }
+  .ContainerImage{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 4rem;
+  }
+
+  .Images{
+    width: 161px;
+    height: 161px;
+  }
+  .AboutUs{
+    height: 70rem;
+  }
+  .Video{
+    width: 150px;
+    height: 150px;
+  }
+  .video-container{
+    display: grid;
+    gap: 9rem;
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+} 
+
+
+/* ============================ BIGIN OF FOURTH RESPONSIVENES ======================= */
+
+@media only screen and (max-width: 345px) and (min-width: 343px) {
+  body {
+    background-color: lightgreen;
+  }
+
+  .ContainBoard{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    background-color: rgb(17, 27, 27);
+  }
+
+  .ArrowLink{
+    background-color: white;
+    width: 11rem;
+    position: relative;
+    top: 0rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    left: 125px;
+    height: 200px;
+    z-index: 1;
+    gap: 10rem;
+    
+    
+    
+   }
+
+   .Person{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -190px;
+    left: -132px;
+  }
+  .ListeAvailProd{
+    position: relative;
+    left: 3.5rem;
+    top: -22rem;
+    width: 5rem;
+    height: 17.5rem;
+    background-color: rgb(160, 149, 149);
+  }
+
+  .ManyProduct{
+    position: relative;
+    top: -50px;
+    left: -130px;
+    width: 175px;
+    height: 280px;
+  }
+
+  a,.Liste  {
+  
+    color: var(--secondary-color);
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    gap: 2rem;
+    justify-content: center;
+    height: 3rem;  
+    
+     
+  }
+  .Footer{
+    background-color: var(--Primary-color);
+    color: var(--secondary-color);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    gap: 1rem;
+    font-size: small;
+  }
+  .ContainerImage{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+  }
+
+  .Images{
+    width: 148px;
+    height: 161px;
+  }
+  .AboutUs{
+    height: 50rem;
+  }
+  .Video{
+    width: 133px;
+    height: 150px;
+  }
+  .video-container{
+    display: grid;
+    gap: 3.5rem;
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+}
